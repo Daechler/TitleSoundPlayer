@@ -1,0 +1,12 @@
+name: TitleSoundPlayer
+version: '${project.version}'
+main: net.daechler.titlesoundplayer.TitleSoundPlayer
+api-version: '1.20'
+authors: [Daechler]
+description: Display titles and sounds for specific players.
+commands:
+  tsp:
+    description: Display titles and sounds for specific players.
+    aliases: tsp
+    usage: /tsp
+    permission: tsp.use
